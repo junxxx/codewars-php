@@ -10,6 +10,11 @@ function rot($s) {
         
 
     return implode("\n", array_reverse($result));
+
+    /* what a fuck stupid solution !!!
+    *  strrev()  done what I've build.
+    */
+    // return strrev($s);
 }
 function selfieAndRot($s) {
     $str2array = explode("\n", $s);
