@@ -1,0 +1,14 @@
+set nu
+syntax on
+set autoindent
+set cindent
+set smartindent
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set ai!
+set showmatch
+set ruler
+set fileencodings=utf-8,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
